@@ -21,9 +21,11 @@ const client = new Client('tttVhEVHWFIMa23VCEJXFZHDPewZ8FdahGVdOJb0vNR99tqQcxKbR
 	const uwu=(await client.getAccount(searchData.leaders[14].member));
 	const requireeeee=uwu.identity.alternate.wb_network[0].username;
 
-	const htmlData=
-	<div class="name">requireeeee</div>
+	const htmlData=<div class="name">requireeeee</div>
 	
 	const testDiv=document.querySelector('.megaTesto')
 	testDiv.innerHTML=htmlData
+
 })();
+
+fetch('')
